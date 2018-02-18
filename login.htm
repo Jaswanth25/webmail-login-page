@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+	form{	border : 3px solid #f1f1f1
+		
+		margin:auto;
+		position:relative;
+	}
+
+b{
+
+	color: #cacfd2;
+}
+
+
+.iitglogo{
+
+	
+	border-radius: 10px ;
+	width:18%;
+	margin-left: 44%;
+}
+
+
+input[type=text],input[type=password]
+	{
+	width : 38%;
+	padding : 10px;
+	margin : 8px;
+	border : 1px solid #ccc;
+	box-sizing : border-box;
+	border-radius: 10px;
+	margin-left:35%;
+
+	}
+h1{
+	margin-left:38%;
+	font-size: 4vw;
+	color:  #d5dbdb  ;
+
+	
+}
+select{
+
+	margin-left:3%;
+}
+
+a{
+
+	color:  #0d75f1 ;
+}
+
+body{
+
+	
+	background-repeat: no-repeat;
+
+
+
+}
+.login{
+	margin:25px;
+	margin-left:48%;
+	background-color:#4CAF50;
+	padding:8px 20px;
+	border-radius:15px;
+	cursor: pointer;
+}
+
+
+.span{
+
+	margin-left:35%;
+	margin-top:25px;
+	padding-top:19px;
+
+	
+}
+.container{
+	margin-left:35%;
+
+
+
+
+}
+button{
+	margin-left:23%;
+}
+.view{
+
+	
+	color:  #87b3b6 ;
+}
+
+#p01{
+
+	color:  #87b3b6 ;
+}
+
+</style>
+</head>
+<body   background= "b1.jpg" ; >
+
+<form>
+
+<label><h1>Webmail login</h1></label>
+<img src="iitglogo.png" align="middle" class="iitglogo" ><br>
+<label><b  class="container"  >User name:</b></label><br>
+<input class="container" type="text"  placeholder="enter username" name="uname" required autofocus><br>
+<label><b class="container" >Password:</b></label><br>
+<input type="password" class="container" placeholder="enter password" name="psw" required><br><br>
+
+<b>
+<font color=" #cacfd2 " class="container">login to:</font></b>
+<select name="loginserver" >
+
+		<option value="Disang">Disang</option>
+		<option value="Namboor">Namboor</option>	
+		<option value="Teesta">Teesta</option>
+		<option value="Tandil">Tandil</option>
+		<option value="Dikrong">Dikrong</option>
+</select>
+
+<br>
+<button type="submit" class="login" >Login</button><br>
+<label ><input type="checkbox"  class="container view"><font color=" #87b3b6 "><b>Remember me</font></label><br><br>
+
+<div   width="250px" >
+<label>
+<span class="span view" >Forgot <a href="#">password?</b> </a></span></label>
+</div>
+
+</form>
+</body>
+</html>
